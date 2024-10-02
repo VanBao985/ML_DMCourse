@@ -1,0 +1,11 @@
+scikit-image
+seaborn
+scikit-learn
+jupyterlab
+pyvi
+beautifulsoup4==4.9.3
+PyYAML
+pandas
+numpy
+matplotlib
+scipy
