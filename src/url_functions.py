@@ -31,7 +31,11 @@ def get_content_(url):
     headers[
         'User-Agent'] = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36'
 
+<<<<<<< HEAD
     r = requests.get(url, headers=headers, timeout=10) 
+=======
+    r = requests.get(url, headers=headers, timeout=10)
+>>>>>>> aaffe20 (update train classification with randomforest)
     r.encoding = 'utf-8'
     r.close()
     return str(r.text)
@@ -141,8 +145,11 @@ def get_all_news_urls_from_topics_links(topics_links: dict, n_pages_per_topic=1)
             news_links = get_news_links_from_sub_topic_page_link(page_link)
             output[k] = output[k] + news_links
     return output
+<<<<<<< HEAD
 
 
 
 # print(get_content_news_from_news_url('https://vnexpress.net/brazil-nguy-co-thanh-lo-ap-bien-chung-ncov-4242061.html'))
 get_news_links_from_sub_topic_page_link('https://vnexpress.net/the-gioi/tu-lieu')
+=======
+>>>>>>> aaffe20 (update train classification with randomforest)

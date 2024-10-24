@@ -1,11 +1,23 @@
+<<<<<<< HEAD
+=======
+pandas
+numpy
+matplotlib
+scipy
+>>>>>>> aaffe20 (update train classification with randomforest)
 scikit-image
 seaborn
 scikit-learn
 jupyterlab
 pyvi
+<<<<<<< HEAD
 beautifulsoup4==4.9.3
 PyYAML
 pandas
 numpy
 matplotlib
 scipy
+=======
+beautifulsoup4
+PyYAML
+>>>>>>> aaffe20 (update train classification with randomforest)
